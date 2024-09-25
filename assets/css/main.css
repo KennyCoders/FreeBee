@@ -2736,6 +2736,13 @@ input, select, textarea {
     transition: margin 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Add margin transition */
 }
 
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .tiles article {
+        flex: 0 0 100%; /* Take full width on mobile */
+    }
+}
+
 
 
 /* Header */
