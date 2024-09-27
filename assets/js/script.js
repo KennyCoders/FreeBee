@@ -124,14 +124,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 videoContainer.innerHTML = '';
                 videoContainer.appendChild(iframe);
 
-                // Create and display the "I want this" bubble
-                const gameLink = this.getAttribute('data-link');
-                const bubble = document.createElement('div');
-                bubble.className = 'want-bubble';
-                bubble.innerHTML = `<a href="${gameLink}" target="_blank">I want this</a>`;
+                // // Create and display the "I want this" bubble
+                // const gameLink = this.getAttribute('data-link');
+                // const bubble = document.createElement('div');
+                // bubble.className = 'want-bubble';
+                // bubble.innerHTML = `<a href="${gameLink}" target="_blank">I want this</a>`;
 
-                // Position the bubble above the video
-                videoContainer.appendChild(bubble);
+                // // Position the bubble above the video
+                // videoContainer.appendChild(bubble);
 
                 // Add the 'playing' class to show the video
                 this.classList.add('playing');
