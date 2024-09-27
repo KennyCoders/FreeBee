@@ -235,7 +235,9 @@ input, select, textarea {
 	
 	
 	h1 {
-		font-size: 4.0em;
+		font-size: 5vw;
+		margin: 0;
+		white-space: nowrap;
 		color : black;
 		font-weight: 700;
 		line-height: 1.3;
@@ -247,28 +249,28 @@ input, select, textarea {
 	h1 a {
 		color: inherit;
 	}
-	
-	
-	
 
-	
-
-		@media screen and (max-width: 736px) {
-
-			h1 {
-				font-size: 2em;
-				margin: 0 0 1em 0;
-			}
-
+	@media (max-width: 600px) { /* Adjust the max-width as needed */
+		h1 {
+			font-size: 4vw; /* Adjust font size for mobile */
+			margin: 0; /* Remove or adjust margin */
+			padding: 0 10px; /* Add padding if needed */
 		}
+		.bee-logo{
 
-		@media screen and (max-width: 360px) {
-
-			h1 {
-				font-size: 1.75em;
-			}
-
+			height: 9vw;
+			max-height: 250px;
+    		width: auto;
 		}
+		
+	}
+	
+	
+	
+
+	
+
+		
 
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
@@ -2823,11 +2825,7 @@ input, select, textarea {
     margin-right: 15px;
 }
 
-h1 {
-    font-size: 5vw;
-    margin: 0;
-    white-space: nowrap;
-}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -2844,16 +2842,9 @@ h1 {
         margin-bottom: 10px;
     }
 
-    h1 {
-        font-size: 6vw;
-    }
+    
 }
 
-@media (max-width: 480px) {
-    h1 {
-        font-size: 8vw;
-    }
-}
 
 
 
