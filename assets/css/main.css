@@ -252,7 +252,7 @@ input, select, textarea {
 
 	@media (max-width: 600px) { /* Adjust the max-width as needed */
 		h1 {
-			font-size: 4vw; /* Adjust font size for mobile */
+			font-size: 6vw; /* Adjust font size for mobile */
 			margin: 0; /* Remove or adjust margin */
 			padding: 0 10px; /* Add padding if needed */
 		}
