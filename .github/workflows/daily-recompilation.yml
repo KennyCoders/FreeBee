@@ -1,0 +1,30 @@
+name: Daily Website Recompilation
+
+on:
+  schedule:
+    # Run every day at 17:00 Israel time (UTC+3)
+    - cron: '0 14 * * *'
+
+jobs:
+  recompile-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Recompile website
+        run: npm run build
+
+      - name: Deploy to hosting service
+        run: |
+          # Add your deployment commands here
+          # For example, if using GitHub Pages:
+          # npm run deploy
