@@ -19,6 +19,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error('Games data is not an array');
             }
 
+
+            // Find the earliest date in the games data
+            const earliestDate = new Date(Math.min(...games.map(game => new Date(game.date))));
+
+            // Calculate the end date (7 days after the earliest date)
+            const endDate = new Date(earliestDate);
+            endDate.setDate(endDate.getDate() + 7);
+
+            // Format dates as MM/DD
+            const formatDate = (date) => {
+                return `${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getDate().toString().padStart(2, '0')}`;
+            };
+
+            // Display the date range
+            const dateRangeElement = document.getElementById('date-range');
+            dateRangeElement.textContent = `For the week of: ${formatDate(earliestDate)} until ${formatDate(endDate)}`;
+
             // Group games by platform
             const groupedGames = games.reduce((acc, game) => {
                 if (!acc[game.platform]) {
@@ -27,6 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 acc[game.platform].push(game);
                 return acc;
             }, {});
+
+            
 
             console.log('Grouped games:', groupedGames);
 
@@ -79,35 +98,43 @@ document.addEventListener('DOMContentLoaded', () => {
                         return;
                     }
 
-                    // Load the YouTube video
-                    const trailerUrl = this.getAttribute('data-trailer');
-                    console.log('Trailer URL:', trailerUrl);
-                    
-                    if (!trailerUrl) {
-                        console.error('No trailer URL found');
-                        return;
-                    }
+                const trailerUrl = this.getAttribute('data-trailer');
+                console.log('Trailer URL:', trailerUrl);
 
-                    // Show loading indicator
-                    videoContainer.innerHTML = '<div class="loading">Loading video...</div>';
+                if (!trailerUrl) {
+                    console.error('No trailer URL found');
+                    return;
+                }
 
-                    const embedUrl = trailerUrl.replace('watch?v=', 'embed/') + '?autoplay=1';
-                    console.log('Embed URL:', embedUrl);
+                // Show loading indicator
+                videoContainer.innerHTML = '<div class="loading">Loading video...</div>';
 
-                    const iframe = document.createElement('iframe');
-                    iframe.src = embedUrl;
-                    iframe.width = '100%';
-                    iframe.height = '100%';
-                    iframe.frameBorder = '0';
-                    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-                    iframe.allowFullscreen = true;
+                const embedUrl = trailerUrl.replace('watch?v=', 'embed/') + '?autoplay=1';
+                console.log('Embed URL:', embedUrl);
 
-                    // Replace loading indicator with the iframe
-                    videoContainer.innerHTML = '';
-                    videoContainer.appendChild(iframe);
+                const iframe = document.createElement('iframe');
+                iframe.src = embedUrl;
+                iframe.width = '100%';
+                iframe.height = '100%';
+                iframe.frameBorder = '0';
+                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                iframe.allowFullscreen = true;
 
-                    // Add the 'playing' class to show the video
-                    this.classList.add('playing');
+                // Replace loading indicator with the iframe
+                videoContainer.innerHTML = '';
+                videoContainer.appendChild(iframe);
+
+                // Create and display the "I want this" bubble
+                const gameLink = this.getAttribute('data-link');
+                const bubble = document.createElement('div');
+                bubble.className = 'want-bubble';
+                bubble.innerHTML = `<a href="${gameLink}" target="_blank">I want this</a>`;
+
+                // Position the bubble above the video
+                videoContainer.appendChild(bubble);
+
+                // Add the 'playing' class to show the video
+                this.classList.add('playing');
                 });
             });
         })

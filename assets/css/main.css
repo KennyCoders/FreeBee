@@ -192,17 +192,37 @@ input, select, textarea {
 .amazon-logo,
 .xbox-logo,
 .sony-logo {
-    display: block; /* Make the logo a block element */
-    margin-left: auto; /* Center horizontally */
-	transform: translateX(-7px);
-    margin-right: auto; /* Center horizontally */
-    margin-top: 50px; /* Add space above */
-    margin-bottom: 70px; /* Add space below */
-    width: 300px;   /* Set the desired width */
-    height: 125px;  /* Set the desired height */
-    object-fit: contain; /* Ensure logos scale properly within the box */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;    /* Set a fixed width */
+    height: 350px;   /* Set a fixed height */
+    object-fit: contain; /* Scale logos to fit within the fixed dimensions without distortion */
+	
 }
 
+
+.sony-logo {
+    max-width: 300px;  
+    max-height: 265; 
+	margin-top: 20px;
+    margin-bottom: 20px;
+	
+}
+
+.amazon-logo{
+	max-width: 350px;  
+    max-height: 300px; 
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.xbox-logo{
+	max-width: 350x;  
+    max-height: 250px;
+	margin-top: 70px;
+    margin-bottom: 70px;
+}
 
 
 	
@@ -215,11 +235,11 @@ input, select, textarea {
 	
 	
 	h1 {
-		font-size: 3.75em;
+		font-size: 4.0em;
 		color : black;
 		font-weight: 700;
 		line-height: 1.3;
-		margin: 0 0 1em 0;
+		margin: 0 0 0em 0;
 		letter-spacing: -0.035em;
 		text-align: center; /* Center the text */
 	}
@@ -252,10 +272,39 @@ input, select, textarea {
 
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
+		
 		line-height: 1.5;
-		margin: 0 0 2em 0;
-		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		margin: 0 0 1em 0;
+		
+		
+	}
+
+	.center-text {
+		text-align: center;
+		margin: 20px 0;
+		line-height: 1.5;
+		font-size: 1.4em;
+	}
+	
+	/* Hide the mobile version by default */
+	.mobile-text {
+		display: none;
+	}
+	
+	/* Show the full version on larger screens */
+	.full-text {
+		display: block;
+	}
+	
+	/* On mobile screens (max width 768px), show the mobile version and hide the full text */
+	@media (max-width: 768px) {
+		.full-text {
+			display: none;
+		}
+		
+		.mobile-text {
+			display: block;
+		}
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2616,28 +2665,53 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+
+/* Date range */
+
+#date-range {
+    font-size: 1.4em; /* Increase font size */
+    font-weight: bold; /* Make the font bold */
+    text-align: center; /* Center the text */
+    margin-top: 1em; /* Add some space above */
+    color: #333; /* Set a color that contrasts well with your background */
+    font-family: Arial, sans-serif; /* Choose a font that looks good for date display */
+}
+
 /* Add these styles to your existing main.css */
 .tiles {
-	position: relative;
-
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: -1em 0 0 -1em;
+    justify-content: center; /* Center tiles in the container */
+    margin: -1em; /* Adjusted to remove negative margin */
+    padding: 0 1em; /* Add padding to ensure the tiles don’t touch the edges */
 }
 
 .tiles article {
-    flex: 0 0 calc(40%); /* Change this to adjust the size of the tiles */
-    margin: 1em;
+    flex: 0 0 calc(45% - 2em); /* Slightly reduce width to 45% to allow space for margins */
+    margin: 2em; /* Maintain spacing around tiles */
     position: relative;
     overflow: visible;
-    border-radius: 8px;
+    border-radius: 16px; /* More rounded corners */
     cursor: pointer;
     aspect-ratio: 16 / 9; /* Maintain aspect ratio */
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0); /* Subtle gradient background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+	 border: 4px solid transparent; 
+    background-image: linear-gradient(to bottom right, #b39ddb, #64b5f6), url('image.jpg');
+    background-clip: border-box; /* Ensures the gradient only appears in the border */
+    border-radius: 10px; /* Match border radius with the tile */
 }
+
+
+/* Ensure the tiles will stack responsively on smaller screens */
+@media (max-width: 768px) {
+    .tiles article {
+        flex: 0 0 calc(100% - 2em); /* On smaller screens, take full width */
+    }
+}
+
 
 .tiles article:hover {
     transform: scale(1.05); /* Slightly scale up on hover */
@@ -2671,6 +2745,8 @@ input, select, textarea {
     margin: 0;
     padding: 10px;
     text-align: center;
+	font-size: 2vw;
+    font-family: 'Roboto Condensed', sans-serif; /* Example font */
 }
 
 .tiles article .video-container {
@@ -2698,188 +2774,67 @@ input, select, textarea {
     opacity: 1; /* Fade in when playing */
 }
 
-/* Tiles Bubble */
 
-.tiles article .bubble {
-    display: none;
-    position: absolute;
-    top: -40px; /* Adjust this value to position the bubble above the tile */
-    left: 50%;
-    transform: translateX(-50%) translateY(-10px);
-    background-color: #ffcc00;
-    color: #000;
-    padding: 5px 10px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    z-index: 3;
+/* Want Bulle */
+
+
+
+
+
+#header .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.tiles article .bubble:hover {
-    background-color: #ffd700;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+.logo-title-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+	margin-top: 3em;
 }
 
-.tiles article .bubble-link {
-    color: #000;
-	font-size: 150x;
-    text-decoration: none;
-    font-weight: bold;
+.bee-logo {
+    height: 7vw;
+    max-height: 220px;
+    width: auto;
+    margin-right: 15px;
 }
 
-.tiles article .bubble-link:hover {
-    text-decoration: underline;
+h1 {
+    font-size: 5vw;
+    margin: 0;
+    white-space: nowrap;
 }
 
-/* Ensure smooth transition when adjusting margins */
-.tiles article {
-    transition: margin 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Add margin transition */
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo-title-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bee-logo {
+        height: 15vw;
+        max-height: 60px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
 }
 
-/* Media Query for Mobile Devices */
-@media (max-width: 600px) {
-    .tiles article {
-        flex: 0 0 100%; /* Take full width on mobile */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 8vw;
     }
 }
 
 
-
-/* Header */
-
-	#header {
-		padding: 1em 0 0.1em 0 ;
-	}
-
-		#header .logo {
-			display: block;
-			border-bottom: 0;
-			color: inherit;
-			font-weight: 900;
-			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
-			text-decoration: none;
-			text-transform: uppercase;
-			display: inline-block;
-		}
-
-			#header .logo > * {
-				display: inline-block;
-				vertical-align: middle;
-			}
-
-			#header .logo .symbol {
-				margin-right: 0.65em;
-			}
-
-				#header .logo .symbol img {
-					display: block;
-					width: 5em;
-					height:5em;
-				}
-
-		#header nav {
-			position: fixed;
-			right: 2em;
-			top: 2em;
-			z-index: 10000;
-		}
-
-			#header nav ul {
-				display: -moz-flex;
-				display: -webkit-flex;
-				display: -ms-flex;
-				display: flex;
-				-moz-align-items: center;
-				-webkit-align-items: center;
-				-ms-align-items: center;
-				align-items: center;
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
-
-				#header nav ul li {
-					display: block;
-					padding: 0;
-				}
-
-					#header nav ul li a {
-						display: block;
-						position: relative;
-						height: 3em;
-						line-height: 3em;
-						padding: 0 1.5em;
-						background-color: rgba(255, 255, 255, 0.5);
-						border-radius: 4px;
-						border: 0;
-						font-size: 0.8em;
-						font-weight: 900;
-						letter-spacing: 0.35em;
-						text-transform: uppercase;
-					}
-
-					#header nav ul li a[href="#menu"] {
-						-webkit-tap-highlight-color: transparent;
-						width: 4em;
-						text-indent: 4em;
-						font-size: 1em;
-						overflow: hidden;
-						padding: 0;
-						white-space: nowrap;
-					}
-
-						#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
-							-moz-transition: opacity 0.2s ease;
-							-webkit-transition: opacity 0.2s ease;
-							-ms-transition: opacity 0.2s ease;
-							transition: opacity 0.2s ease;
-							content: '';
-							display: block;
-							position: absolute;
-							top: 0;
-							left: 0;
-							width: 100%;
-							height: 100%;
-							background-position: center;
-							background-repeat: no-repeat;
-							background-size: 2em 2em;
-						}
-
-						#header nav ul li a[href="#menu"]:before {
-							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23f2849e%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
-							opacity: 0;
-						}
-
-						#header nav ul li a[href="#menu"]:after {
-							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23585858%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
-							opacity: 1;
-						}
-
-						#header nav ul li a[href="#menu"]:hover:before {
-							opacity: 1;
-						}
-
-						#header nav ul li a[href="#menu"]:hover:after {
-							opacity: 0;
-						}
-
-		@media screen and (max-width: 736px) {
-
-			#header {
-				padding: 4em 0 0.1em 0 ;
-			}
-
-				#header nav {
-					right: 0.5em;
-					top: 0.5em;
-				}
-
-					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
-						background-size: 1.5em 1.5em;
-					}
-
-		}
 
 /* Menu */
 
@@ -3069,9 +3024,9 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
+	/* #main {
 		padding: 0em 0 6em 0 ;
-	}
+	} */
 
 		@media screen and (max-width: 736px) {
 
