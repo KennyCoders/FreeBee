@@ -4,6 +4,7 @@ on:
   schedule:
     # Run every day at 17:00 Israel time (UTC+3)
     - cron: '0 14 * * *'
+  workflow_dispatch:  # This line allows you to run the workflow manually
 
 jobs:
   recompile-and-deploy:
