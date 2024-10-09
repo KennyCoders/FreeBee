@@ -55,6 +55,190 @@
             "trailer": "https://www.youtube.com/watch?v=ZN08TF5Y69E",
             "date": "2024-10-03",
             "platform": "xbox_games"
+        },
+        {
+            "title": "LEGO The Hobbit",
+            "link": "https://gaming.amazon.com/lego-the-hobbit-gog/dp/amzn1.pg.item.ab3a2867-9b29-482e-a06a-8d91f380a0e2?ingress=amzn&ref_=SM_LEGOTheHobbit_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71157ti9yxL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=ClgqpHfIKH4&list=PL-7t9DoIELCTJVN3HJZj0oq2BF60yvu-n",
+            "date": "2024-09-23",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Shadow of the Tomb Raider: Definitive Edition",
+            "link": "https://gaming.amazon.com/shadow-of-the-tomb-raider-definitive-edition-epic/dp/amzn1.pg.item.2bf7032d-b8f7-46ee-9244-75cdc8507382?ingress=amzn&ref_=SM_ShadowoftheTombRaiderDefinitiveEdition_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61KUUMEcEGL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=8pwTZXmzQPk",
+            "date": "2024-09-23",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Kerbal Space Program",
+            "link": "https://gaming.amazon.com/kerbal-space-program-gog/dp/amzn1.pg.item.86a1a1cd-19c4-40d8-9f13-abeb3ed8b54c?ingress=amzn&ref_=SM_KerbalSpaceProgram_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71PhQGM0TvL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=Os9MnHvotM8&list=PLZTh0kEd98Meaw_-Z9sOzxirNE_7GiRBS",
+            "date": "2024-09-23",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Tales from the Borderlands",
+            "link": "https://gaming.amazon.com/tales-from-the-borderlands-epic/dp/amzn1.pg.item.7d8968f0-b1ff-4c44-a61a-5e5186ab9a35?ingress=amzn&ref_=SM_TalesfromtheBorderlands_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71SgEFvxVVL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=zYu-pAbWPAY",
+            "date": "2024-09-23",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Thronebreaker: The Witcher Tales",
+            "link": "https://gaming.amazon.com/thronebreaker-the-witcher-tales-gog/dp/amzn1.pg.item.1e56678f-a42c-4004-84a5-3b92fd162ad3?ingress=amzn&ref_=SM_ThronebreakerTheWitcherTales_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71-03vJoWxL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=fDoLRZoQXg8",
+            "date": "2024-09-23",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "LEGO Indiana Jones: The Original Adventures",
+            "link": "https://gaming.amazon.com/lego-indiana-jones-the-original-adventures-aga/dp/amzn1.pg.item.3cf2d27b-a1ff-4a4b-bb98-2a91fcd11763?ingress=amzn&ref_=SM_LEGOIndianaJonesTheOriginalAdventures_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/718G3OhpA5L._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/results?search_query=LEGO+Indiana+Jones%3A+The+Original+Adventures+gameplay",
+            "date": "2024-09-26",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Borderlands: The Pre-Sequel",
+            "link": "https://gaming.amazon.com/borderlands-the-pre-sequel-epic/dp/amzn1.pg.item.4604b37c-3756-4d7b-8564-4ade5943b150?ingress=amzn&ref_=SM_BorderlandsThePreSequel_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71OQbTpTacL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/results?search_query=Borderlands%3A+The+Pre-Sequel+gameplay",
+            "date": "2024-09-26",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "TOEM",
+            "link": "https://store.epicgames.com/en-US/p/toem",
+            "image": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_TOEM_SomethingWeMade_S1%20(1)_2560x1440-8ba2b054cf944aa40a90211650d388b7?h=480&quality=medium&resize=1&w=854",
+            "trailer": "https://www.youtube.com/watch?v=3EDrXRkeFQQ",
+            "date": "2024-09-23",
+            "platform": "epic_games"
+        },
+        {
+            "title": "The Last Stand: Aftermath",
+            "link": "https://store.epicgames.com/en-US/p/the-last-stand-aftermath",
+            "image": "https://cdn1.epicgames.com/offer/8d296e80f3ec42a79881f0693f3bded0/EGS_TheLastStandAftermath_ConArtistGames_S1_2560x1440-cbc4b6fe8b2a64436720d45b01148d10?h=480&quality=medium&resize=1&w=854",
+            "trailer": "https://www.youtube.com/watch?v=8sMpSulCu4Q",
+            "date": "2024-09-23",
+            "platform": "epic_games"
+        },
+        {
+            "title": "The Spirit and the Mouse",
+            "link": "https://store.epicgames.com/en-US/p/the-spirit-and-the-mouse-42390b",
+            "image": "https://cdn1.epicgames.com/spt-assets/836b235a73124dff93ad3f6ec12dbaeb/the-spirit-and-the-mouse-offer-ldey6.jpg?h=480&quality=medium&resize=1&w=854",
+            "trailer": "https://www.youtube.com/watch?v=Dy2P66s3m20",
+            "date": "2024-09-23",
+            "platform": "epic_games"
+        },
+        {
+            "title": "Harry Potter: Quidditch Champions",
+            "link": "https://store.playstation.com/en-us/games/harry-potter-quidditch-champions/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/harry-potter-quidditch-champions-screenshot-01-en-23may24",
+            "trailer": "https://www.youtube.com/watch?v=GkfF_eFMpgQ",
+            "date": "2024-09-24",
+            "platform": "sony_games"
+        },
+        {
+            "title": "MLB® The Show™ 24",
+            "link": "https://store.playstation.com/en-us/games/mlb-the-show/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/mlb-the-show-24-player-Vladimir-Guerrero-Jr-02-en-28aug24",
+            "trailer": "https://www.youtube.com/watch?v=McB8R1SPvrY",
+            "date": "2024-09-24",
+            "platform": "sony_games"
+        },
+        {
+            "title": "Little Nightmares II",
+            "link": "https://store.playstation.com/en-us/games/little-nightmares-ii/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/little-nightmares-2-screen-03-ps4-en-13sep19",
+            "trailer": "https://www.youtube.com/watch?v=gKCvphbCpPE",
+            "date": "2024-09-24",
+            "platform": "sony_games"
+        },
+        {
+            "title": "Train Sim World® 5: Standard Edition",
+            "link": "https://www.xbox.com/en-us/games/store/train-sim-world-5-standard-edition/9N9FR8CSZP56",
+            "image": "https://store-images.s-microsoft.com/image/apps.40169.13533673129408975.95f4b180-e431-4714-922e-b555f8c6879d.9433236d-417c-4930-9bb0-16ebc5cf6be1",
+            "trailer": "https://www.youtube.com/watch?v=5X2-m0KS-AI",
+            "date": "2024-09-23",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Riders Republic™",
+            "link": "https://www.xbox.com/en-us/games/store/riders-republic/9P1RPXHWZ1C7",
+            "image": "https://store-images.s-microsoft.com/image/apps.65212.14501696194323418.5696fcf1-5727-45da-a94c-1fdd9ad791ae.2779a381-3f89-4cbf-b4c3-d736c980e7de",
+            "trailer": "https://www.youtube.com/watch?v=_qqf27WN5Vk",
+            "date": "2024-09-23",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Expeditions: A MudRunner Game",
+            "link": "https://www.xbox.com/en-us/games/store/expeditions-a-mudrunner-game/9NP9J3T0JWRL",
+            "image": "https://store-images.s-microsoft.com/image/apps.43838.13722712109789879.88e97562-5a57-4b39-9426-9595fa771f98.49ef35c8-d6df-4a9b-941f-380ad5d035bd",
+            "trailer": "https://www.youtube.com/watch?v=W5NsUk83JWk&list=PLClY3bOF3ZUCL2QXJ8FdSoTlsWGCaRA4e",
+            "date": "2024-09-23",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Age of Mythology: Retold Standard Edition",
+            "link": "https://www.xbox.com/en-us/games/store/age-of-mythology-retold-standard-edition/9NPKGVXPFRSX",
+            "image": "https://store-images.s-microsoft.com/image/apps.11603.13792255792507479.e5089564-b472-427d-a39f-9e97ae74bf23.022933e1-6a30-4a52-8c02-0b9400857d8e",
+            "trailer": "https://www.youtube.com/watch?v=MWOXt1omUlE",
+            "date": "2024-09-23",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Star Trucker",
+            "link": "https://www.xbox.com/en-us/games/store/star-trucker/9MT19Q3CRMQZ",
+            "image": "https://store-images.s-microsoft.com/image/apps.44532.13821700683757810.93b2f721-fab5-4d3d-b441-a854a8efa421.7556908b-9456-422f-8836-10c24c5e5e2d",
+            "trailer": "https://www.youtube.com/watch?v=RYe4aox6WDM",
+            "date": "2024-09-23",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Core Keeper (Xbox Series X|S)",
+            "link": "https://www.xbox.com/en-us/games/store/core-keeper-xbox-series-xs/9PKW4GMX4J8K",
+            "image": "https://store-images.s-microsoft.com/image/apps.35511.14254653956732518.ee4db869-b080-4312-9405-1bf254e12616.ecba3eeb-5e13-430c-b6f4-2dcaa4095f7d",
+            "trailer": "https://www.youtube.com/watch?v=KxlyDKsFq6A",
+            "date": "2024-09-23",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "TRIALS of MANA",
+            "link": "https://www.xbox.com/en-us/games/store/trials-of-mana/9NHMR19TS1M0",
+            "image": "https://store-images.s-microsoft.com/image/apps.38795.13622716626834505.ab757391-28a2-430c-9eef-0acea7eb4158.d1bd3196-f7de-457e-92c6-bfd62e7e3b96",
+            "trailer": "https://www.youtube.com/watch?v=_Wvn0m8WSY8&list=PLs4Nmf7JpBBQ3fia1iUOKk1H6yyL6zzxc",
+            "date": "2024-09-26",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "All You Need is Help",
+            "link": "https://www.xbox.com/en-us/games/store/all-you-need-is-help/9NS4Q51TVR51",
+            "image": "https://store-images.s-microsoft.com/image/apps.7510.14370532235029556.abb159ad-d98d-4584-b197-1b2527908a82.a77dd416-33d0-48c2-9dbb-8a193d533f29",
+            "trailer": "https://www.youtube.com/watch?v=5BAXsD-9Egk",
+            "date": "2024-09-26",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Wargroove 2",
+            "link": "https://www.xbox.com/en-us/games/store/wargroove-2/9PBKCFF2FVB4",
+            "image": "https://store-images.s-microsoft.com/image/apps.50139.14122007479841687.7c6d6098-a1de-4d4a-9dfd-39d728fa4f28.1dcd2e95-9db8-4fcc-88fd-e464028a4326",
+            "trailer": "https://www.youtube.com/watch?v=StuUpm3JR_A&list=PL3g-xnUp7s047qR40fqMwtVaJLoo_LCrs",
+            "date": "2024-09-26",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Overwatch® 2",
+            "link": "https://www.xbox.com/en-us/games/store/overwatch-2/C1C4DZJPBC2V",
+            "image": "https://store-images.s-microsoft.com/image/apps.12909.64800374430761253.267d7140-cb21-4c3c-973f-b40d0a14a435.babc6a01-12f6-455c-bc07-c83ac0c73545",
+            "trailer": "https://www.youtube.com/watch?v=lkTHRdZzl1o",
+            "date": "2024-09-26",
+            "platform": "xbox_games"
         }
     ]
 }

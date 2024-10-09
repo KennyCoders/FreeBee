@@ -19,13 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error('Games data is not an array');
             }
 
+            // Get current date and calculate date range
+            const currentDate = new Date();
+            const oneWeekAgo = new Date(currentDate);
+            oneWeekAgo.setDate(currentDate.getDate() - 7);
 
-            // Find the earliest date in the games data
-            const earliestDate = new Date(Math.min(...games.map(game => new Date(game.date))));
-
-            // Calculate the end date (7 days after the earliest date)
-            const endDate = new Date(earliestDate);
-            endDate.setDate(endDate.getDate() + 7);
+            // Filter games from the last week only
+            const recentGames = games.filter(game => {
+                const gameDate = new Date(game.date);
+                return gameDate >= oneWeekAgo && gameDate <= currentDate;
+            });
 
             // Format dates as MM/DD
             const formatDate = (date) => {
@@ -34,18 +37,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Display the date range
             const dateRangeElement = document.getElementById('date-range');
-            dateRangeElement.textContent = `For the week of: ${formatDate(earliestDate)} until ${formatDate(endDate)}`;
+            dateRangeElement.textContent = `For the week of: ${formatDate(oneWeekAgo)} until ${formatDate(currentDate)}`;
 
             // Group games by platform
-            const groupedGames = games.reduce((acc, game) => {
+            const groupedGames = recentGames.reduce((acc, game) => {
                 if (!acc[game.platform]) {
                     acc[game.platform] = [];
                 }
                 acc[game.platform].push(game);
                 return acc;
             }, {});
-
-            
 
             console.log('Grouped games:', groupedGames);
 
@@ -55,6 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log(`Looking for container: ${platform}-tiles`);
 
                 if (tilesContainer) {
+                    // Clear existing content
+                    tilesContainer.innerHTML = '';
+                    
                     console.log(`Found container for ${platform}`);
                     groupedGames[platform].forEach(game => {
                         const article = document.createElement('article');
@@ -98,43 +102,34 @@ document.addEventListener('DOMContentLoaded', () => {
                         return;
                     }
 
-                const trailerUrl = this.getAttribute('data-trailer');
-                console.log('Trailer URL:', trailerUrl);
+                    const trailerUrl = this.getAttribute('data-trailer');
+                    console.log('Trailer URL:', trailerUrl);
 
-                if (!trailerUrl) {
-                    console.error('No trailer URL found');
-                    return;
-                }
+                    if (!trailerUrl) {
+                        console.error('No trailer URL found');
+                        return;
+                    }
 
-                // Show loading indicator
-                videoContainer.innerHTML = '<div class="loading">Loading video...</div>';
+                    // Show loading indicator
+                    videoContainer.innerHTML = '<div class="loading">Loading video...</div>';
 
-                const embedUrl = trailerUrl.replace('watch?v=', 'embed/') + '?autoplay=1';
-                console.log('Embed URL:', embedUrl);
+                    const embedUrl = trailerUrl.replace('watch?v=', 'embed/') + '?autoplay=1';
+                    console.log('Embed URL:', embedUrl);
 
-                const iframe = document.createElement('iframe');
-                iframe.src = embedUrl;
-                iframe.width = '100%';
-                iframe.height = '100%';
-                iframe.frameBorder = '0';
-                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-                iframe.allowFullscreen = true;
+                    const iframe = document.createElement('iframe');
+                    iframe.src = embedUrl;
+                    iframe.width = '100%';
+                    iframe.height = '100%';
+                    iframe.frameBorder = '0';
+                    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                    iframe.allowFullscreen = true;
 
-                // Replace loading indicator with the iframe
-                videoContainer.innerHTML = '';
-                videoContainer.appendChild(iframe);
+                    // Replace loading indicator with the iframe
+                    videoContainer.innerHTML = '';
+                    videoContainer.appendChild(iframe);
 
-                // // Create and display the "I want this" bubble
-                // const gameLink = this.getAttribute('data-link');
-                // const bubble = document.createElement('div');
-                // bubble.className = 'want-bubble';
-                // bubble.innerHTML = `<a href="${gameLink}" target="_blank">I want this</a>`;
-
-                // // Position the bubble above the video
-                // videoContainer.appendChild(bubble);
-
-                // Add the 'playing' class to show the video
-                this.classList.add('playing');
+                    // Add the 'playing' class to show the video
+                    this.classList.add('playing');
                 });
             });
         })
