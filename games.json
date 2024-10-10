@@ -239,6 +239,78 @@
             "trailer": "https://www.youtube.com/watch?v=lkTHRdZzl1o",
             "date": "2024-09-26",
             "platform": "xbox_games"
+        },
+        {
+            "title": "Tomb Raider: Legend",
+            "link": "https://gaming.amazon.com/tomb-raider-legend-gog/dp/amzn1.pg.item.deb20932-3e61-435a-863d-57f8c2b59459?ingress=amzn&ref_=SM_TombRaiderLegend_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61KVyJUU6wL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=ADwF9VbUP38",
+            "date": "2024-10-10",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Spirit of the North",
+            "link": "https://gaming.amazon.com/spirit-of-the-north-epic/dp/amzn1.pg.item.7f96c010-c097-4b64-9366-567bee9fa123?ingress=amzn&ref_=SM_SpiritoftheNorth_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/614TewOEInL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=o92pyx2WTuk",
+            "date": "2024-10-10",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "No Straight Roads",
+            "link": "https://gaming.amazon.com/no-straight-roads-epic/dp/amzn1.pg.item.261f39ef-7817-4333-9685-913c07486a41?ingress=amzn&ref_=SM_NoStraightRoads_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71NMXS5GAQL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=1uG2Y3MO4X0",
+            "date": "2024-10-10",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "The Eternal Cylinder",
+            "link": "https://gaming.amazon.com/the-eternal-cylinder-epic/dp/amzn1.pg.item.6fc06cc3-039a-4f6a-b788-100a5fa9c87e?ingress=amzn&ref_=SM_TheEternalCylinder_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71pk9L34EQL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=qtf52FsK5x0&list=PL4D232HeetQOfZIdley5VFKoBrrk8v1Fs",
+            "date": "2024-10-10",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "SCARF",
+            "link": "https://gaming.amazon.com/scarf-aga/dp/amzn1.pg.item.b7b4c851-ccf8-4e27-9cc2-fb7a5863cbcf?ingress=amzn&ref_=SM_SCARF_S02_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61-HScdOk5L._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=TxmWJlWPwTg",
+            "date": "2024-10-10",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Empyrion - Galactic Survival",
+            "link": "https://store.epicgames.com/en-US/p/empyrion-galactic-survival-fbd99f",
+            "image": "https://cdn1.epicgames.com/spt-assets/25da1d05381345f6b50cca947a2fc2fc/empyrion--galactic-survival-1fmc8.jpg?resize=1&w=854&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/watch?v=KSaE6-X7nOM",
+            "date": "2024-10-10",
+            "platform": "epic_games"
+        },
+        {
+            "title": "Outliver: Tribulation",
+            "link": "https://store.epicgames.com/en-US/p/outliver-tribulations-679884",
+            "image": "https://cdn1.epicgames.com/spt-assets/b3880830b9a54ae7bf9262ec56487f2f/outliver--tribulation-1hong.png?resize=1&w=854&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/watch?v=x3tgYW_REwo",
+            "date": "2024-10-10",
+            "platform": "epic_games"
+        },
+        {
+            "title": "Sifu",
+            "link": "https://www.xbox.com/en-us/games/store/sifu/9P7PF6ZP3958",
+            "image": "https://store-images.s-microsoft.com/image/apps.14154.14108092972231485.130f8f79-218a-4318-83ee-72f0213be0dd.51a702bd-7750-456c-b538-dc31b25c4f1f",
+            "trailer": "https://www.youtube.com/results?search_query=Sifu+gameplay",
+            "date": "2024-10-10",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "PAYDAY 2: CRIMEWAVE EDITION",
+            "link": "https://www.xbox.com/en-us/games/store/payday-2-crimewave-edition/9N3K69GS7FWR",
+            "image": "https://store-images.s-microsoft.com/image/apps.13829.13935287813373018.a8e5c9ed-1c1c-4ead-b87f-e2df58390c4b.3cba2a36-4469-4e8c-82bd-a087ae95cacd",
+            "trailer": "https://www.youtube.com/results?search_query=PAYDAY+2%3A+CRIMEWAVE+EDITION+gameplay",
+            "date": "2024-10-10",
+            "platform": "xbox_games"
         }
     ]
 }
