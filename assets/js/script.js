@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM fully loaded and parsed');
 
-    // Fetch games from the JSON file
     fetch('games.json')
         .then(response => {
             if (!response.ok) {
@@ -12,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             console.log('Fetched data:', data);
 
-            // Extract the games array from the data object
             const games = data.games;
 
             if (!Array.isArray(games)) {
@@ -21,32 +19,63 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Get current date and calculate date range
             const currentDate = new Date();
-            const oneWeekAgo = new Date(currentDate);
-            oneWeekAgo.setDate(currentDate.getDate() - 7);
-
-            // Filter games from the last week only
-            const recentGames = games.filter(game => {
-                const gameDate = new Date(game.date);
-                return gameDate >= oneWeekAgo && gameDate <= currentDate;
-            });
+            const oneWeekAhead = new Date(currentDate);
+            oneWeekAhead.setDate(currentDate.getDate() + 7);
 
             // Format dates as MM/DD
             const formatDate = (date) => {
                 return `${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getDate().toString().padStart(2, '0')}`;
             };
 
-            // Display the date range
+            // Display the date range for the upcoming week
             const dateRangeElement = document.getElementById('date-range');
-            dateRangeElement.textContent = `For the week of: ${formatDate(oneWeekAgo)} until ${formatDate(currentDate)}`;
+            dateRangeElement.textContent = `For the week of ${formatDate(currentDate)} - ${formatDate(oneWeekAhead)}`;
 
-            // Group games by platform
-            const groupedGames = recentGames.reduce((acc, game) => {
+            // Function to get the most recent scrape date for a platform
+            const getMostRecentScrapeDate = (platformGames) => {
+                return new Date(Math.max(...platformGames.map(game => new Date(game.date))));
+            };
+
+            // Filter and group games by platform with special handling for Sony
+            const groupedGames = games.reduce((acc, game) => {
                 if (!acc[game.platform]) {
                     acc[game.platform] = [];
                 }
-                acc[game.platform].push(game);
+
+                const gameDate = new Date(game.date);
+                const isSony = game.platform.toLowerCase() === 'sony';
+
+                if (isSony) {
+                    // For Sony, check if game is from current month
+                    const isCurrentMonth = gameDate.getMonth() === currentDate.getMonth() &&
+                                         gameDate.getFullYear() === currentDate.getFullYear();
+                    if (isCurrentMonth) {
+                        acc[game.platform].push(game);
+                    }
+                } else {
+                    // For other platforms, check if game is from current scrape date
+                    const platformGames = games.filter(g => g.platform === game.platform);
+                    const mostRecentScrapeDate = getMostRecentScrapeDate(platformGames);
+                    
+                    if (gameDate.getTime() === mostRecentScrapeDate.getTime()) {
+                        acc[game.platform].push(game);
+                    }
+                }
+
                 return acc;
             }, {});
+
+            // If no games found for a platform, get the most recent ones
+            Object.keys(groupedGames).forEach(platform => {
+                if (groupedGames[platform].length === 0) {
+                    const platformGames = games.filter(game => game.platform === platform);
+                    const mostRecentDate = getMostRecentScrapeDate(platformGames);
+                    
+                    groupedGames[platform] = platformGames.filter(game => 
+                        new Date(game.date).getTime() === mostRecentDate.getTime()
+                    );
+                }
+            });
 
             console.log('Grouped games:', groupedGames);
 
@@ -62,11 +91,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.log(`Found container for ${platform}`);
                     groupedGames[platform].forEach(game => {
                         const article = document.createElement('article');
+                        const scrapeDate = new Date(game.date);
                         article.innerHTML = `
                             <div class="image">
                                 <img src="${game.image}" alt="${game.title}" />
                             </div>
                             <h2><a href="${game.link}" class="game-link">${game.title}</a></h2>
+                            <div class="release-date">Updated: ${formatDate(scrapeDate)}</div>
                             <div class="video-container"></div>
                         `;
                         article.setAttribute('data-trailer', game.trailer);
@@ -78,25 +109,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            // Event listener for game tiles
+            // Event listener for game tiles (unchanged)
             document.querySelectorAll('.tiles article').forEach(article => {
                 article.addEventListener('click', function(event) {
-                    // Check if the click was on or within the h2 element or the bubble
                     if (event.target.closest('h2') || event.target.closest('.bubble')) {
-                        // Prevent the default link behavior
                         event.preventDefault();
-                        
-                        // Open the game link in a new tab
                         window.open(this.getAttribute('data-link'), '_blank');
                         return;
                     }
 
-                    // Prevent the default link behavior
                     event.preventDefault();
 
                     const videoContainer = this.querySelector('.video-container');
 
-                    // If video is already playing, do nothing
                     if (videoContainer.querySelector('iframe')) {
                         console.log('Video already playing, doing nothing');
                         return;
@@ -110,7 +135,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         return;
                     }
 
-                    // Show loading indicator
                     videoContainer.innerHTML = '<div class="loading">Loading video...</div>';
 
                     const embedUrl = trailerUrl.replace('watch?v=', 'embed/') + '?autoplay=1';
@@ -124,11 +148,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
                     iframe.allowFullscreen = true;
 
-                    // Replace loading indicator with the iframe
                     videoContainer.innerHTML = '';
                     videoContainer.appendChild(iframe);
 
-                    // Add the 'playing' class to show the video
                     this.classList.add('playing');
                 });
             });
