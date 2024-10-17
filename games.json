@@ -311,6 +311,22 @@
             "trailer": "https://www.youtube.com/results?search_query=PAYDAY+2%3A+CRIMEWAVE+EDITION+gameplay",
             "date": "2024-10-10",
             "platform": "xbox_games"
+        },
+        {
+            "title": "DOOM Eternal",
+            "link": "https://gaming.amazon.com/doom-eternal-microsoft/dp/amzn1.pg.item.1c490f2e-c698-4077-94a6-6a69c98945e2?ingress=amzn&ref_=SM_DOOMEternal_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71dBSw0a0OL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/results?search_query=DOOM+Eternal+gameplay",
+            "date": "2024-10-17",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "BioShock Remastered",
+            "link": "https://gaming.amazon.com/bioshock-remastered-gog/dp/amzn1.pg.item.47e3beb4-fa93-4141-8bbb-dd75cfbe25c8?ingress=amzn&ref_=SM_BioShockRemastered_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71SG3VLr8OL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/results?search_query=BioShock+Remastered+gameplay",
+            "date": "2024-10-17",
+            "platform": "amazon_games"
         }
     ]
 }
