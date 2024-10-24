@@ -327,6 +327,54 @@
             "trailer": "https://www.youtube.com/results?search_query=BioShock+Remastered+gameplay",
             "date": "2024-10-17",
             "platform": "amazon_games"
+        },
+        {
+            "title": "Killing Floor 2",
+            "link": "https://gaming.amazon.com/killing-floor-2-epic/dp/amzn1.pg.item.ceccd1c8-4bcf-4164-98b8-41b6e92e10ee?ingress=amzn&ref_=SM_KillingFloor2_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61mqUqAUJJL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/results?search_query=Killing+Floor+2+gameplay",
+            "date": "2024-10-24",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Through the Darkest of Times",
+            "link": "https://gaming.amazon.com/through-the-darkest-of-times-aga/dp/amzn1.pg.item.f7492ab7-439e-4e1c-8439-86323c6fc9db?ingress=amzn&ref_=SM_ThroughtheDarkestofTimes_S02_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61TMmFiX7RL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/results?search_query=Through+the+Darkest+of+Times+gameplay",
+            "date": "2024-10-24",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Invincible Presents: Atom Eve",
+            "link": "https://store.epicgames.com/en-US/p/atom-eve-ff090d",
+            "image": "https://cdn1.epicgames.com/spt-assets/bf00db0c53ad40f09bc1331b34cd58b6/atom-eve-nfh8q.jpg?resize=1&w=854&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/results?search_query=Invincible+Presents%3A+Atom+Eve+gameplay",
+            "date": "2024-10-24",
+            "platform": "epic_games"
+        },
+        {
+            "title": "Kardboard Kings",
+            "link": "https://store.epicgames.com/en-US/p/kardboard-kings-0962f8",
+            "image": "https://cdn1.epicgames.com/spt-assets/16244a18d39c4d30919ead91c7860397/kardboard-kings-ji5l9.png?resize=1&w=854&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/results?search_query=Kardboard+Kings+gameplay",
+            "date": "2024-10-24",
+            "platform": "epic_games"
+        },
+        {
+            "title": "South Park™: The Fractured but Whole™",
+            "link": "https://www.xbox.com/en-us/games/store/south-park-the-fractured-but-whole/C4VLMWJWM7BG",
+            "image": "https://store-images.s-microsoft.com/image/apps.36209.67439233347281353.312c5ca8-59b5-4ba8-88de-4df24412a885.0fa53054-edfe-4220-b64a-274afb4fd958",
+            "trailer": "https://www.youtube.com/results?search_query=South+Park%E2%84%A2%3A+The+Fractured+but+Whole%E2%84%A2+gameplay",
+            "date": "2024-10-24",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Inscryption",
+            "link": "https://www.xbox.com/en-us/games/store/inscryption/9P8NSTDMZ11P",
+            "image": "https://store-images.s-microsoft.com/image/apps.62808.14084380653642072.5b7362f4-7943-463e-aa3b-fca7f77fd749.cf0f55f8-a3a6-4744-9ca0-83495e56c0ae",
+            "trailer": "https://www.youtube.com/results?search_query=Inscryption+gameplay",
+            "date": "2024-10-24",
+            "platform": "xbox_games"
         }
     ]
 }
