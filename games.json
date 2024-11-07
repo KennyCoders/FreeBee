@@ -375,6 +375,62 @@
             "trailer": "https://www.youtube.com/results?search_query=Inscryption+gameplay",
             "date": "2024-10-24",
             "platform": "xbox_games"
+        },
+        {
+            "title": "Hot Wheels Unleashed 2 – Turbocharged",
+            "link": "https://store.playstation.com/en-us/games/hot-wheels-unleashed-2-turbocharged/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/hot-wheels-unleashed-2-turbocharged-screenshot-01-en-7march24",
+            "trailer": "https://www.youtube.com/watch?v=TeVChC_38cg",
+            "date": "2024-11-07",
+            "platform": "sony_games"
+        },
+        {
+            "title": "Ghostwire: Tokyo",
+            "link": "https://store.playstation.com/en-us/games/ghostwire-tokyo/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/ghostwire-tokyo-screenshot-03-en1oct21",
+            "trailer": "https://www.youtube.com/watch?v=it7Qz51e3G8",
+            "date": "2024-11-07",
+            "platform": "sony_games"
+        },
+        {
+            "title": "Death Note Killer Within",
+            "link": "https://store.playstation.comhttps://store.playstation.com/concept/10009279/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/death-note-killer-within-screenshot-01-en-30october24",
+            "trailer": "https://www.youtube.com/watch?v=1XBltgva58E",
+            "date": "2024-11-07",
+            "platform": "sony_games"
+        },
+        {
+            "title": "Ashen",
+            "link": "https://www.xbox.com/en-us/games/store/ashen/BNXLPPCVS0HN",
+            "image": "https://store-images.s-microsoft.com/image/apps.39596.67644652336133489.b3703282-21c5-4da4-9f47-ba53b33b37b5.569189bd-72c6-4e18-bae2-96f3542515b3",
+            "trailer": "https://www.youtube.com/watch?v=pCJmeQyJk1E",
+            "date": "2024-11-07",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Goat Simulator 3: Xbox One Edition",
+            "link": "https://www.xbox.com/en-us/games/store/goat-simulator-3-xbox-one-edition/9NL3468NRPBG",
+            "image": "https://store-images.s-microsoft.com/image/apps.47149.13719917860433649.aae29470-5649-4ad1-abf1-81f29d7c6bc8.8143a4c0-41a8-4b4c-9c97-94c4e223eec4",
+            "trailer": "https://www.youtube.com/watch?v=BIbrg8htqEo",
+            "date": "2024-11-07",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "MechWarrior 5: Clans",
+            "link": "https://www.xbox.com/en-us/games/store/mechwarrior-5-clans/9P9FJCK32PMT",
+            "image": "https://store-images.s-microsoft.com/image/apps.11196.14143931878007168.03344273-b496-420a-9599-61992eabf325.59d84f74-86b3-4ba1-884e-a34bb805880f",
+            "trailer": "https://www.youtube.com/watch?v=0-qIZmTXlu4",
+            "date": "2024-11-07",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Donut County",
+            "link": "https://www.xbox.com/en-us/games/store/donut-county/9N6V2181GHLM",
+            "image": "https://store-images.s-microsoft.com/image/apps.9487.14011542784181932.80ac6320-df7b-4be6-9355-e9083a5d2063.bb7adc22-496e-4006-a148-669d0ac3898f",
+            "trailer": "https://www.youtube.com/watch?v=3C49sFh2SzQ",
+            "date": "2024-11-07",
+            "platform": "xbox_games"
         }
     ]
 }
