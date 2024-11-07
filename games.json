@@ -431,6 +431,126 @@
             "trailer": "https://www.youtube.com/watch?v=3C49sFh2SzQ",
             "date": "2024-11-07",
             "platform": "xbox_games"
+        },
+        {
+            "title": "Marvel's Guardians of the Galaxy",
+            "link": "https://gaming.amazon.com/marvels-guardians-of-the-galaxy-epic/dp/amzn1.pg.item.65ab6ff9-d3b0-4dd6-a000-add80106fc9b?ingress=amzn&ref_=SM_MarvelsGuardiansoftheGalaxy_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71rBpIAAziL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=1_Fz7O-YdfE",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Mafia: Definitive Edition",
+            "link": "https://gaming.amazon.com/mafia-definitive-edition-gog/dp/amzn1.pg.item.e4bad3f3-f5e0-484c-b8df-dd2680e4910f?ingress=amzn&ref_=SM_MafiaDefinitiveEdition_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61lY-4GLXnL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=DNR8veqKrqc",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "A Plague Tale: Innocence",
+            "link": "https://gaming.amazon.com/a-plague-tale-innocence-gog/dp/amzn1.pg.item.09661e4b-9ac0-4a58-b80b-eaf0b4af8957?ingress=amzn&ref_=SM_APlagueTaleInnocence_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/51CspAWeuXL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=e9PCcPg7mVs",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Death's Door",
+            "link": "https://gaming.amazon.com/deaths-door-epic/dp/amzn1.pg.item.dc5b4794-e4bf-4f86-870e-d24f1ab2b0b2?ingress=amzn&ref_=SM_DeathsDoor_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61BEbfZFzIL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=4DP0mSG1YrA&list=PLj_Goi54wf0c6MZydXYN9l1gAA8zrdEoX",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Scorn",
+            "link": "https://gaming.amazon.com/scorn-gog/dp/amzn1.pg.item.34eb9ece-c1c8-42f9-8e18-0bf1c3c8c704?ingress=amzn&ref_=SM_Scorn_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61qKDRZW3vL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/results?search_query=Scorn+gameplay",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Coromon",
+            "link": "https://gaming.amazon.com/coromon-gog/dp/amzn1.pg.item.cf7557a9-a65d-49b5-b6e7-b98604150d78?ingress=amzn&ref_=SM_Coromon_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71+XovVRraL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=f3tDTMaAeVM&list=PL-ec1vuqoUzZrljeRBePLjCSSvyU15DSK",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Gargoyles Remastered",
+            "link": "https://gaming.amazon.com/gargoyles-remastered-aga/dp/amzn1.pg.item.551a3513-05a9-4466-9034-d112c0e27c52?ingress=amzn&ref_=SM_GargoylesRemastered_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61z7mJxL1pL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=TeA4Oe-l4hk",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Haunted Hotel: Personal Nightmare - CE",
+            "link": "https://gaming.amazon.com/haunted-hotel-personal-nightmare-ce-aga/dp/amzn1.pg.item.41f7e313-4225-4d71-a0a4-0dea5a6b04d5?ingress=amzn&ref_=SM_HauntedHotelPersonalNightmareCE_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61ZeLdR+5jL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=eJhlVKPyi50&list=PLgYZP8HR5eDI8al2jE095C0XRwJy9fmY_",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Ghostbusters: Spirits Unleashed Ecto Edition",
+            "link": "https://gaming.amazon.com/ghostbusters-spirits-unleashed-ecto-edition-epic/dp/amzn1.pg.item.97d3bd84-65d7-4139-b981-35a2eb27aee5?ingress=amzn&ref_=SM_GhostbustersSpiritsUnleashedEctoEdition_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71744wxDzkL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=ngiGVbl9NDw",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Monster Train",
+            "link": "https://gaming.amazon.com/monster-train-gog/dp/amzn1.pg.item.935352db-da17-4dc0-891c-5f7fcdfbf691?ingress=amzn&ref_=SM_MonsterTrain_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71oPG0eNUIL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=GVEwoVUf7IY",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Pumpkin Jack",
+            "link": "https://gaming.amazon.com/pumpkin-jack-gog/dp/amzn1.pg.item.a04f8021-81e2-456c-aa16-c0ceb7d8be0d?ingress=amzn&ref_=SM_PumpkinJack_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61PPb8qpBdL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=ZUm1GQzDFBY",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "STASIS: BONE TOTEM",
+            "link": "https://gaming.amazon.com/stasis-bone-totem-epic/dp/amzn1.pg.item.96e6beeb-913f-4eba-8471-e8188e94b744?ingress=amzn&ref_=SM_STASISBONETOTEM_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61ZiPH+9UOL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=4w_91b4Bb_Q&list=PLN39y5i_H0Fm8Ac7E_aOCxpFLMWJA4AGf",
+            "date": "2024-11-07",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Witch It",
+            "link": "https://store.epicgames.com/en-US/p/witch-it-3624a9",
+            "image": "https://cdn1.epicgames.com/spt-assets/03887d7e03fd460eb1c3074d1de865dd/witch-it-1xnm7.png?resize=1&w=360&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/watch?v=nhkmBErjKOI",
+            "date": "2024-11-07",
+            "platform": "epic_games"
+        },
+        {
+            "title": "Apex Legends™: Ash Free Unlock Bundle",
+            "link": "https://store.epicgames.com/en-US/p/apex-legends-season-23-epic-content-offer-ecf761",
+            "image": "https://cdn1.epicgames.com/spt-assets/5dcd88f4e2094a698ebffa43438edc33/apex-legends-1c97o.jpg?resize=1&w=360&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/shorts/uVy0d-WaXSs",
+            "date": "2024-11-07",
+            "platform": "epic_games"
+        },
+        {
+            "title": "Deceive Inc.",
+            "link": "https://store.epicgames.com/en-US/p/deceive-inc",
+            "image": "https://cdn1.epicgames.com/offer/eca9a86adffa4605b8250d383fc01098/EGS_DeceiveInc_SweetBanditsStudios_S2_1200x1600-7b92243bc46b5d69987132bd4b3e8309?resize=1&w=360&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/watch?v=1eMc_oAMBcA",
+            "date": "2024-11-07",
+            "platform": "epic_games"
         }
     ]
 }
