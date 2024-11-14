@@ -551,6 +551,22 @@
             "trailer": "https://www.youtube.com/watch?v=1eMc_oAMBcA",
             "date": "2024-11-07",
             "platform": "epic_games"
+        },
+        {
+            "title": "Metal Slug Tactics",
+            "link": "https://www.xbox.com/en-us/games/store/metal-slug-tactics/9NGNZP1J1JN7",
+            "image": "https://store-images.s-microsoft.com/image/apps.33936.13646304231559376.0397570c-fcf7-4ee9-a581-d728135dc834.119515ad-b41a-4efb-8fc3-5d5ae8d46408",
+            "trailer": "https://www.youtube.com/results?search_query=Metal+Slug+Tactics+gameplay",
+            "date": "2024-11-14",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Call of Duty®: Black Ops 6 - Cross-Gen Bundle",
+            "link": "https://www.xbox.com/en-us/games/store/call-of-duty-black-ops-6---cross-gen-bundle/9PF528M6CRHQ",
+            "image": "https://store-images.s-microsoft.com/image/apps.28966.14207097610490811.5b338e31-5c12-4d95-9a2a-2f16ceb01377.acc0294d-61eb-49e2-a059-758d5b1227d4",
+            "trailer": "https://www.youtube.com/results?search_query=Call+of+Duty%C2%AE%3A+Black+Ops+6+-+Cross-Gen+Bundle+gameplay",
+            "date": "2024-11-14",
+            "platform": "xbox_games"
         }
     ]
 }
