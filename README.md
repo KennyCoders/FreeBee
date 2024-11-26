@@ -4,6 +4,7 @@ A fully automated website that showcases free and rotating games across popular 
 
 
 **Features**:
+
 **Frontend**: Includes HTML, CSS, and JavaScript
 
 **Dynamic Updates and Deployment**: The website is updated automatically maintained,updated and deployed online using GitHub Pages.
