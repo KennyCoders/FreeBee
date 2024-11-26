@@ -12,7 +12,7 @@ A fully automated website that showcases free and rotating games across popular 
 **Purpose**:
 The project is designed to help users easily stay informed about free and rotating games each week, making it simple to discover new titles as they become available.
 
-
+https://kennycoders.github.io/FreeBee/
 
 
 
