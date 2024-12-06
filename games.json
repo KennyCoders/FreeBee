@@ -567,6 +567,222 @@
             "trailer": "https://www.youtube.com/results?search_query=Call+of+Duty%C2%AE%3A+Black+Ops+6+-+Cross-Gen+Bundle+gameplay",
             "date": "2024-11-14",
             "platform": "xbox_games"
+        },
+        {
+            "title": "S",
+            "link": "https://www.xbox.com/en-us/games/store/stalker-2-heart-of-chornobyl---xbox-edition/9P7ZBF3S7PSS",
+            "image": "https://store-images.s-microsoft.com/image/apps.15281.14102836618611203.a0c0e3ae-152e-400e-9afe-a59e5468b2a6.d7860502-077b-4921-9223-d5c6112896bd",
+            "trailer": "https://www.youtube.com/results?search_query=S+gameplay",
+            "date": "2024-11-28",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Genshin Impact",
+            "link": "https://www.xbox.com/en-us/games/store/genshin-impact/9N7TFFRRZCC9",
+            "image": "https://store-images.s-microsoft.com/image/apps.8648.14057893183113088.f6290e57-0d66-4252-a17e-d1fd92cbc82b.1d8e84d0-dae6-4cab-b76a-fad7289904b9",
+            "trailer": "https://www.youtube.com/watch?v=AT88BafY6rE&list=PL28_eRFIuaoIzVhtU0pqTow-HV62IMREa",
+            "date": "2024-11-28",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+            "link": "https://www.xbox.com/en-us/games/store/microsoft-flight-simulator-2024---standard-edition/9P2VGCTBMM52",
+            "image": "https://store-images.s-microsoft.com/image/apps.59000.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.961d2dcc-23a2-4997-a317-7237e2d47bbc",
+            "trailer": "https://www.youtube.com/watch?v=fldSitlMvEk",
+            "date": "2024-11-28",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Age of Empires II: Definitive Edition",
+            "link": "https://www.xbox.com/en-us/games/store/age-of-empires-ii-definitive-edition/9N42SSSX2MTG",
+            "image": "https://store-images.s-microsoft.com/image/apps.55056.13991012152837663.1297136a-f273-41f1-947f-59044c848c55.7dbf4684-b0de-4879-ba2e-c7460c910965",
+            "trailer": "https://www.youtube.com/watch?v=gu0YQQvsHz8",
+            "date": "2024-11-28",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Spyro™ Reignited Trilogy",
+            "link": "https://www.xbox.com/en-us/games/store/spyro-reignited-trilogy/BWHFZNSL0PB5",
+            "image": "https://store-images.s-microsoft.com/image/apps.7878.71510837884329922.e091ebfc-ee9a-468a-b6e5-327d0f0d0974.ad149242-54a5-4f51-ab66-14ecde79d7d8",
+            "trailer": "https://www.youtube.com/watch?v=C3vUbDFrm6U",
+            "date": "2024-11-28",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Goat Simulator: Remastered",
+            "link": "https://www.xbox.com/en-us/games/store/goat-simulator-remastered/9P71QFSC7Q34",
+            "image": "https://store-images.s-microsoft.com/image/apps.23941.14613594387174793.c8989194-dd0a-4922-b0ab-c64275ecf8b0.3513efd2-b8ca-4377-b4e6-f5f4b7ab29d8",
+            "trailer": "https://www.youtube.com/results?search_query=Goat+Simulator%3A+Remastered+gameplay",
+            "date": "2024-11-28",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Overcooked! 2",
+            "link": "https://gaming.amazon.com/overcooked-2-gog/dp/amzn1.pg.item.b6910650-0c3f-4d55-b114-71995e792dc3?ingress=amzn&ref_=SM_Overcooked2_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61wwWjkD7iL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=YPlxlu4y0oA",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "DREDGE",
+            "link": "https://gaming.amazon.com/dredge-gog/dp/amzn1.pg.item.c2739dbe-88cc-43a3-861b-982aa14dbf22?ingress=amzn&ref_=SM_DREDGE_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61zvrr3iXGL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=XcWmCG_31Xo&list=PLZTh0kEd98MfXdZqhGj_0vz6vDMPWPXFk",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Jurassic World Evolution",
+            "link": "https://gaming.amazon.com/jurassic-world-evolution-epic/dp/amzn1.pg.item.140fad39-9af7-4c9c-bba1-a6d4a4b83d99?ingress=amzn&ref_=SM_JurassicWorldEvolution_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61vPl1TqoiL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=UXuX5YnzDM0&list=PLO4Rf-h30KmYxN5Y4boOV-6O6wkRAkkAh",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Star Wars: Bounty Hunter",
+            "link": "https://gaming.amazon.com/star-wars-bounty-hunter-gog/dp/amzn1.pg.item.86eb5bf7-ba42-4b3a-a29e-c8d1b0c7acb9?ingress=amzn&ref_=SM_StarWarsBountyHunter_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61yS7f6A3UL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=pfnfzig81ss",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Tomb Raider: Underworld",
+            "link": "https://gaming.amazon.com/tomb-raider-underworld-gog/dp/amzn1.pg.item.81e42040-ac4d-4f12-90f0-5dca1413ed6d?ingress=amzn&ref_=SM_TombRaiderUnderworld_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/5140NRUSlEL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/results?search_query=Tomb+Raider%3A+Underworld+gameplay",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Call of Juarez: Gunslinger",
+            "link": "https://gaming.amazon.com/call-of-juarez-gunslinger-gog/dp/amzn1.pg.item.18ebe935-8f05-4932-8b63-40bcc86344f6?ingress=amzn&ref_=SM_CallofJuarezGunslinger_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71yGXFtEDXL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=RmfQ-jHGT60",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Elite Dangerous",
+            "link": "https://gaming.amazon.com/elite-dangerous-epic/dp/amzn1.pg.item.26dc4db5-9ad6-4a58-bd73-276adf5411bb?ingress=amzn&ref_=SM_EliteDangerous_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61+4blRKiWL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=QIgRA00mBlo",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Shogun Showdown",
+            "link": "https://gaming.amazon.com/shogun-showdown-gog/dp/amzn1.pg.item.c3a4b220-2762-416d-ae9c-e849044cc918?ingress=amzn&ref_=SM_ShogunShowdown_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61XC5DO56ZL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=UjJSH-6Se_g",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Sir Whoopass: Immortal Death",
+            "link": "https://gaming.amazon.com/sir-whoopass-immortal-death-gog/dp/amzn1.pg.item.e6dbfe9b-01d8-4b6e-b804-e35656e9d143?ingress=amzn&ref_=SM_SirWhoopassImmortalDeath_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61+EFtq52IL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=8yu5HvUTdlw",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Overcooked! Gourmet Edition",
+            "link": "https://gaming.amazon.com/overcooked-gourmet-edition-gog/dp/amzn1.pg.item.c6114db6-8fcd-49d2-8c3c-3747519a78fd?ingress=amzn&ref_=SM_OvercookedGourmetEdition_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61bIQLOxNML._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=B2sO2oRqgNM",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Super Meat Boy",
+            "link": "https://gaming.amazon.com/super-meat-boy-epic/dp/amzn1.pg.item.fdd65066-5b10-49d8-9a0d-8cece25399e8?ingress=amzn&ref_=SM_SuperMeatBoy_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/51BndnA4q6L._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=ALnE4Rc7dG4",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Disney•Pixar Cars",
+            "link": "https://gaming.amazon.com/disney-pixar-cars-aga/dp/amzn1.pg.item.ebea312c-a434-4b2a-942f-4229272d18fd?ingress=amzn&ref_=SM_DisneyPixarCars_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/6190d3MNL6L._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=TFar4KCA6WQ&list=PLA9B0tF8EUBSb9dRhlFgxxvU0sAtPRML1",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Tomb Raider: Anniversary",
+            "link": "https://gaming.amazon.com/tomb-raider-anniversary-gog/dp/amzn1.pg.item.3913b4e6-1bef-4bab-b599-76a0d4b303e3?ingress=amzn&ref_=SM_TombRaiderAnniversary_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/51+10zKN3gL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=2Me8QPURsDc",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Mystery Case Files: The Dalimar Legacy - CE",
+            "link": "https://gaming.amazon.com/mystery-case-files-the-dalimar-legacy-ce-aga/dp/amzn1.pg.item.1683372f-d154-479e-85b9-47f1430ac849?ingress=amzn&ref_=SM_MysteryCaseFilesTheDalimarLegacyCE_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61ROt3Cek9L._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=uzy1SzToAfE&list=PLgYZP8HR5eDLls4gR1FNONcS1C0PKexEP",
+            "date": "2024-12-05",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "It Takes Two",
+            "link": "https://store.playstation.com/en-us/games/it-takes-two/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/it-takes-two-screen-01-ps5-en-29jan21",
+            "trailer": "https://www.youtube.com/watch?v=jTCpCU1IGG8",
+            "date": "2024-12-05",
+            "platform": "sony_games"
+        },
+        {
+            "title": "Aliens: Dark Descent",
+            "link": "https://store.playstation.com/en-us/games/aliens-dark-descent/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/aliens-dark-descent-screenshot-01-ps4-ps5-en-02jun22",
+            "trailer": "https://www.youtube.com/watch?v=s_ZzgGDXgw0",
+            "date": "2024-12-05",
+            "platform": "sony_games"
+        },
+        {
+            "title": "Temtem",
+            "link": "https://store.playstation.com/en-us/games/temtem/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/temtem-screen-02-ps5-en-25sep20",
+            "trailer": "https://www.youtube.com/watch?v=Csx5aK5mZCI",
+            "date": "2024-12-05",
+            "platform": "sony_games"
+        },
+        {
+            "title": "Crash™ Team Racing Nitro-Fueled",
+            "link": "https://www.xbox.com/en-us/games/store/crash-team-racing-nitro-fueled/BQRB60PW2SDL",
+            "image": "https://store-images.s-microsoft.com/image/apps.25964.68749109251632061.7415fd07-15d9-4d61-941f-64c80c5c0bd5.8fab658f-e3b7-452c-afeb-ad36df7bd4b3",
+            "trailer": "https://www.youtube.com/results?search_query=Crash%E2%84%A2+Team+Racing+Nitro-Fueled+gameplay",
+            "date": "2024-12-06",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Nine Sols",
+            "link": "https://www.xbox.com/en-us/games/store/nine-sols/9N3LGKGF3CC2",
+            "image": "https://store-images.s-microsoft.com/image/apps.45976.14000456863863255.e1180b2d-029d-4c02-9385-6ad73421ad63.508279c9-acdd-45b3-9321-9d8f45feb958",
+            "trailer": "https://www.youtube.com/results?search_query=Nine+Sols+gameplay",
+            "date": "2024-12-06",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Bus Simulator 21 Next Stop",
+            "link": "https://store.epicgames.com/en-US/p/bus-simulator-21",
+            "image": "https://cdn1.epicgames.com/offer/2b09519576cb4276bfd8df52f5288e4a/EGS_BusSimulator21NextStop_stillalivestudios_S1_2560x1440-ae24be3577061e1b8f850fffe2e5b3a8?resize=1&w=854&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/watch?v=K_gwaiGG_IQ",
+            "date": "2024-12-06",
+            "platform": "epic_games"
+        },
+        {
+            "title": "LEGO® Star Wars™: The Skywalker Saga",
+            "link": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga",
+            "image": "https://cdn1.epicgames.com/offer/9c59efaabb6a48f19b3485d5d9416032/EGS_LEGOStarWarsTheSkywalkerSaga_TTGames_S1_2560x1440-ae89e9c91aec1e461148f93f25b828ed?resize=1&w=854&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/watch?v=xFtO5-XMKIw&list=PLPGt4fc8n2-kd2SY-8v8__PRiSvEohIkv",
+            "date": "2024-12-06",
+            "platform": "epic_games"
         }
     ]
 }
