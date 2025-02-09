@@ -831,6 +831,182 @@
             "trailer": "https://www.youtube.com/results?search_query=Eternal+Strands+gameplay",
             "date": "2025-02-09",
             "platform": "xbox_games"
+        },
+        {
+            "title": "BioShock Infinite Complete Edition",
+            "link": "https://gaming.amazon.com/bioshock-infinite-complete-edition-gog/dp/amzn1.pg.item.f69e4c99-25ab-43d9-9ad8-393c9f19eb1e?ingress=amzn&ref_=SM_BioShockInfiniteCompleteEdition_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61bcFZoGQ3L._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=t5Vwu57RvHw&pp=ygUrQmlvU2hvY2sgSW5maW5pdGUgQ29tcGxldGUgRWRpdGlvbiBnYW1lcGxheQ%3D%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "The Talos Principle: Gold Edition",
+            "link": "https://gaming.amazon.com/the-talos-principle-gold-edition-gog/dp/amzn1.pg.item.21595cab-36a3-460c-a4c1-eefbc4e68aff?ingress=amzn&ref_=SM_TheTalosPrincipleGoldEdition_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/514P1pTvEEL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=WsbOaBAsyKc&pp=ygUqVGhlIFRhbG9zIFByaW5jaXBsZTogR29sZCBFZGl0aW9uIGdhbWVwbGF5",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "AK-xolotl: Together",
+            "link": "https://gaming.amazon.com/ak-xolotl-together-epic/dp/amzn1.pg.item.eb0502c0-fe6a-4d76-8779-df26dd955689?ingress=amzn&ref_=SM_AKxolotlTogether_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71Q7CU0Y+EL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=PVFYLvgE8lw&pp=ygUcQUsteG9sb3RsOiBUb2dldGhlciBnYW1lcGxheQ%3D%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Sands of Aura",
+            "link": "https://gaming.amazon.com/sands-of-aura-epic/dp/amzn1.pg.item.8ece1001-311f-4345-9232-aadb70b4cf28?ingress=amzn&ref_=SM_SandsofAura_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71AUdpKZuPL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=XHlmxVJP8iw&pp=ygUWU2FuZHMgb2YgQXVyYSBnYW1lcGxheQ%3D%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Surf World Series",
+            "link": "https://gaming.amazon.com/surf-world-series-aga/dp/amzn1.pg.item.5bbe46f8-6349-44a5-a183-46102cf8fe2c?ingress=amzn&ref_=SM_SurfWorldSeries_S02_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71+CicIcmmL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=NQqlyIN8lA0&pp=ygUaU3VyZiBXb3JsZCBTZXJpZXMgZ2FtZXBsYXk%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "ENDER LILIES: Quietus of the Knights",
+            "link": "https://gaming.amazon.com/ender-lilies-quietus-of-the-knights-epic/dp/amzn1.pg.item.2073f883-5119-42fc-969c-b8cc4605cb4b?ingress=amzn&ref_=SM_ENDERLILIESQuietusoftheKnights_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/516vMFIDccL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=0yaRP90qkag&pp=ygUtRU5ERVIgTElMSUVTOiBRdWlldHVzIG9mIHRoZSBLbmlnaHRzIGdhbWVwbGF5",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Blood West",
+            "link": "https://gaming.amazon.com/blood-west-gog/dp/amzn1.pg.item.170eee48-9cf1-4bc3-bf82-90156b8cf8fe?ingress=amzn&ref_=SM_BloodWest_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/617Cak5eeIL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=Y8J4y1o160A&pp=ygUTQmxvb2QgV2VzdCBnYW1lcGxheQ%3D%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "BioShock 2 Remastered",
+            "link": "https://gaming.amazon.com/bioshock-2-remastered-gog/dp/amzn1.pg.item.8337f2b5-26f9-47fd-be10-1481062d64d6?ingress=amzn&ref_=SM_BioShock2Remastered_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61vL6KmHsaL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=i5d0BA95No8&pp=ygUeQmlvU2hvY2sgMiBSZW1hc3RlcmVkIGdhbWVwbGF5",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Super Meat Boy Forever",
+            "link": "https://gaming.amazon.com/super-meat-boy-forever-epic/dp/amzn1.pg.item.ce14e175-3f5d-4eee-b084-fc5402505b4c?ingress=amzn&ref_=SM_SuperMeatBoyForever_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71MqM9RcBBL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=zCa-pzFlZgY&pp=ygUfU3VwZXIgTWVhdCBCb3kgRm9yZXZlciBnYW1lcGxheQ%3D%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Deus Ex: Game of the Year Edition",
+            "link": "https://gaming.amazon.com/deus-ex-game-of-the-year-edition-gog/dp/amzn1.pg.item.ccd55f15-26b4-4e82-9531-af85e40a4045?ingress=amzn&ref_=SM_DeusExGameoftheYearEdition_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61xOU01tgLL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=pC5niDwkaV8&pp=ygUqRGV1cyBFeDogR2FtZSBvZiB0aGUgWWVhciBFZGl0aW9uIGdhbWVwbGF5",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Zombie Army 4: Dead War",
+            "link": "https://gaming.amazon.com/zombie-army-4-dead-war-epic/dp/amzn1.pg.item.f1e7d14f-a941-41e8-9185-23b68c8de619?ingress=amzn&ref_=SM_ZombieArmy4DeadWar_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61YE8NlmaHL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=2eypNTGHyqg&pp=ygUgWm9tYmllIEFybXkgNDogRGVhZCBXYXIgZ2FtZXBsYXk%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "GRIP",
+            "link": "https://gaming.amazon.com/grip-gog/dp/amzn1.pg.item.d2358a22-76ef-4c8a-aa76-17b9a10543f5?ingress=amzn&ref_=SM_GRIP_S02_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71I4fN0gqUL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=gsIeLxQx5gI&pp=ygUNR1JJUCBnYW1lcGxheQ%3D%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "SteamWorld Quest: Hand of Gilgamech",
+            "link": "https://gaming.amazon.com/steamworld-quest-hand-of-gilgamech-gog/dp/amzn1.pg.item.0155588e-849a-425d-b6a7-4605e24d9463?ingress=amzn&ref_=SM_SteamWorldQuestHandofGilgamech_S02_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71-pAq5Mb0L._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=2YO4SdLdYZE&pp=ygUsU3RlYW1Xb3JsZCBRdWVzdDogSGFuZCBvZiBHaWxnYW1lY2ggZ2FtZXBsYXk%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Are You Smarter than a 5th Grader",
+            "link": "https://gaming.amazon.com/are-you-smarter-than-a-5th-grader-epic/dp/amzn1.pg.item.5fa3631e-aa15-44f9-a4ef-7d0ea6b3010f?ingress=amzn&ref_=SM_AreYouSmarterthana5thGrader_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/61dSrkleVfL._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=oc8jSUCYwRc&pp=ygUqQXJlIFlvdSBTbWFydGVyIHRoYW4gYSA1dGggR3JhZGVyIGdhbWVwbGF5",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "To The Rescue!",
+            "link": "https://gaming.amazon.com/to-the-rescue-epic/dp/amzn1.pg.item.7e3de5ab-e8a7-4322-adb8-a2e39546aa39?ingress=amzn&ref_=SM_ToTheRescue_S01_FGWP_CRWN",
+            "image": "https://m.media-amazon.com/images/I/71vMJ7YNt+L._FMwebp_.jpg",
+            "trailer": "https://www.youtube.com/watch?v=GBCxijUkwE0&pp=ygUXVG8gVGhlIFJlc2N1ZSEgZ2FtZXBsYXk%3D",
+            "date": "2025-02-09",
+            "platform": "amazon_games"
+        },
+        {
+            "title": "Beyond Blue",
+            "link": "https://store.epicgames.com/en-US/p/beyond-blue",
+            "image": "https://cdn1.epicgames.com/bd9fd28ca1214868922f2ab41d6d3b65/offer/EGS_BeyondBlue_ELineMedia_S2-1200x1600-66ee2b1322a74ff2e35e462d644ff519.jpg?resize=1&w=360&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/watch?v=cheBsLiM2ig&pp=ygUUQmV5b25kIEJsdWUgZ2FtZXBsYXk%3D",
+            "date": "2025-02-09",
+            "platform": "epic_games"
+        },
+        {
+            "title": "HUMANKIND™ Standard Edition",
+            "link": "https://store.epicgames.com/en-US/p/humankind",
+            "image": "https://cdn1.epicgames.com/offer/02c14a01b7044db98de3f3a10813a42e/newimg_1200x1600-41d8535c87839b2c2d0aeb3e43d00d57?resize=1&w=360&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/watch?v=Pw-yKOte5eA&pp=ygUmSFVNQU5LSU5E4oSiIFN0YW5kYXJkIEVkaXRpb24gZ2FtZXBsYXk%3D",
+            "date": "2025-02-09",
+            "platform": "epic_games"
+        },
+        {
+            "title": "Apex Legends™: Loba Free Unlock Bundle",
+            "link": "https://store.epicgames.com/en-US/p/apex-legends-season-24-epic-content-offer-f63bd1",
+            "image": "https://cdn1.epicgames.com/spt-assets/5dcd88f4e2094a698ebffa43438edc33/apex-legends-1nk9w.jpg?resize=1&w=360&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/shorts/uuJnsr6eBnc",
+            "date": "2025-02-09",
+            "platform": "epic_games"
+        },
+        {
+            "title": "F1® Manager 2024",
+            "link": "https://store.epicgames.com/en-US/p/f1-manager-2024-fe51bd",
+            "image": "https://cdn1.epicgames.com/spt-assets/57015e643399448f8139291daa15bfc2/f1-manager-2024-15uhb.jpg?resize=1&w=360&h=480&quality=medium",
+            "trailer": "https://www.youtube.com/watch?v=6ZGUBB6Q6VU&pp=ygUaRjHCriBNYW5hZ2VyIDIwMjQgZ2FtZXBsYXk%3D",
+            "date": "2025-02-09",
+            "platform": "epic_games"
+        },
+        {
+            "title": "Payday 3",
+            "link": "https://store.playstation.com/en-us/games/payday-3/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/payday-3-screenshot-01-en-30jan25",
+            "trailer": "https://www.youtube.com/watch?v=Cv2PKgtFg9s&pp=ygURUGF5ZGF5IDMgZ2FtZXBsYXk%3D",
+            "date": "2025-02-09",
+            "platform": "sony_games"
+        },
+        {
+            "title": "High on Life",
+            "link": "https://store.playstation.com/en-us/games/high-on-life/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/high-on-life-screenshot-01-en-30jan25",
+            "trailer": "https://www.youtube.com/watch?v=PbOX8xBfouY&pp=ygUVSGlnaCBvbiBMaWZlIGdhbWVwbGF5",
+            "date": "2025-02-09",
+            "platform": "sony_games"
+        },
+        {
+            "title": "PAC-MAN WORLD Re-PAC",
+            "link": "https://store.playstation.com/en-us/games/pac-man-world-re-pac/",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/pac-man-world-re-pac-screenshot-01-en-30jan25",
+            "trailer": "https://www.youtube.com/watch?v=qJh7I2R4z8I&pp=ygUdUEFDLU1BTiBXT1JMRCBSZS1QQUMgZ2FtZXBsYXk%3D",
+            "date": "2025-02-09",
+            "platform": "sony_games"
         }
     ]
 }
