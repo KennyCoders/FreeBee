@@ -1,0 +1,22 @@
+name: Deploy Static Site
+
+on:
+  push:
+    branches:
+      - main  # This is your main branch; adjust if needed
+  workflow_dispatch:  # Allows you to run the workflow manually
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages  # The branch to deploy to
+          folder: .  # This is correct since your files are in the root directory
+          token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub
