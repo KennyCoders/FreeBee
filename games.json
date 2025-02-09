@@ -783,6 +783,54 @@
             "trailer": "https://www.youtube.com/watch?v=xFtO5-XMKIw&list=PLPGt4fc8n2-kd2SY-8v8__PRiSvEohIkv",
             "date": "2024-12-06",
             "platform": "epic_games"
+        },
+        {
+            "title": "Far Cry® New Dawn",
+            "link": "https://www.xbox.com/en-us/games/store/far-cry-new-dawn/C1DDW4PRF6K5",
+            "image": "https://store-images.s-microsoft.com/image/apps.64306.64841033704503268.bc0de57e-6dcd-40b5-b35e-f9f46b4ec1ae.f10b3597-c0ec-428e-9266-d457abfd1d56",
+            "trailer": "https://www.youtube.com/results?search_query=Far+Cry%C2%AE+New+Dawn+gameplay",
+            "date": "2025-02-09",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Citizen Sleeper 2: Starward Vector",
+            "link": "https://www.xbox.com/en-us/games/store/citizen-sleeper-2-starward-vector/9MWCF1XBJBR2",
+            "image": "https://store-images.s-microsoft.com/image/apps.47283.13841979780106331.acb28221-4c2d-40dc-b1e1-dbee254379de.abf1f1a2-f310-4d90-a369-37a94a90dd42",
+            "trailer": "https://www.youtube.com/results?search_query=Citizen+Sleeper+2%3A+Starward+Vector+gameplay",
+            "date": "2025-02-09",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "STAR WARS Jedi: Survivor™ Xbox One",
+            "link": "https://www.xbox.com/en-us/games/store/star-wars-jedi-survivor-xbox-one/9PLRP6PHV6XP",
+            "image": "https://store-images.s-microsoft.com/image/apps.58100.14307838718612882.e0c0d680-9047-4793-86d4-78e3dd87e6c2.9c42a5ea-d0d4-4fa0-8ffe-c4382e8313ee",
+            "trailer": "https://www.youtube.com/results?search_query=STAR+WARS+Jedi%3A+Survivor%E2%84%A2+Xbox+One+gameplay",
+            "date": "2025-02-09",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Sniper Elite: Resistance",
+            "link": "https://www.xbox.com/en-us/games/store/sniper-elite-resistance/9MXRG5GCRPXZ",
+            "image": "https://store-images.s-microsoft.com/image/apps.51551.13884837624671830.a1b4bcb8-63aa-419a-ac34-76ae03d6dca7.638d45d3-e816-4927-9355-71fc2e775cde",
+            "trailer": "https://www.youtube.com/results?search_query=Sniper+Elite%3A+Resistance+gameplay",
+            "date": "2025-02-09",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Shady Part of Me",
+            "link": "https://www.xbox.com/en-us/games/store/shady-part-of-me/9N9GTTGWZR90",
+            "image": "https://store-images.s-microsoft.com/image/apps.2717.13532858778326869.a40b2b47-85a7-486e-88e7-2df0ff17c213.13f0ca54-a18f-4fdf-88f3-9fdc24afab78",
+            "trailer": "https://www.youtube.com/results?search_query=Shady+Part+of+Me+gameplay",
+            "date": "2025-02-09",
+            "platform": "xbox_games"
+        },
+        {
+            "title": "Eternal Strands",
+            "link": "https://www.xbox.com/en-us/games/store/eternal-strands/9NNKJNRKFT0G",
+            "image": "https://store-images.s-microsoft.com/image/apps.55883.13736859116442717.a1ffa0ea-8877-44c8-8310-2433a1850d55.289fef47-87b7-442a-baab-439a9636d846",
+            "trailer": "https://www.youtube.com/results?search_query=Eternal+Strands+gameplay",
+            "date": "2025-02-09",
+            "platform": "xbox_games"
         }
     ]
 }
